@@ -1,0 +1,26 @@
+#GIT e GITHUB
+
+##CONCEITOS 
+
+###O git é sistema de versionamento de código open source.
+Ele possibilita controlar o histórico de alterações de arquivos e projetos.
+
+###O github é um serviço em nuvem que hospeda códigos versionados e permite a colaboração.
+
+
+##COMANDOS PRINCIPAIS (Windows)
+
+###cd = entrar em uma pasta;
+###mkdir nome_da_pasta = cria um repositório;
+###ctrl + l = limpa a tela; m
+### ls = lista;
+###echo exemplo > ex.txt = pega a saída de texto e salva em um arquivo de txt;
+###rmdir nome_da_pasta /S/Q = apagar uma pasta;
+
+###git init = cria pasta .git;
+###git add . ou git add nome_do_arquivo.extensão = adiciona no controle de versão;
+###git commit -m "as alterações feitas foram ..." = cria o commit;
+###git rm nome_do_arquivo.extensão = remove arquivo;
+###git commit -a -m "rm de arq" = commit informando que o arquivo foi apagado;
+###git config (--list, --global, --unset) = acessar configurações;
+###git push origin master ou main = envia para o github.
